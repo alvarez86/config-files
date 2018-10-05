@@ -1,0 +1,10 @@
+[user]
+	name = Paulo Antonio Alvarez
+	email = pauloaalvarez@gmail.com
+[core]
+	editor = vim
+	whitespace = blank-at-eol,blank-at-eof,space-before-tab,tab-in-indent
+[color]
+	ui = true
+[merge]
+	tool = vimdiff
