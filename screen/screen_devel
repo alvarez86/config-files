@@ -1,0 +1,16 @@
+source ~/.screenrc
+
+sessionname devel_screen
+screen -t "edicao codigo"
+logfile /tmp/screen_codigo.log
+log on
+#Mude para o diretorio do projeto
+cd /home/user/Projeto
+screen -t compilacao
+logfile /tmp/screen_compilacao.log
+log on
+screen -t binarios
+logfile /tmp/screen_binarios.log
+log on
+
+select 2
