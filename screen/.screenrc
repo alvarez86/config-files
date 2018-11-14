@@ -1,5 +1,5 @@
 hardstatus alwayslastline
-hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{+b m}(%{W}%n*%f%t%?(%u)%?%{m})%{-b w}%?%+Lw%?%?%= %{g}][%{c} %D %M %d %{g}%c %{g}]'
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{+b m}(%{W}%n*%f%t%?(%u)%?%{m})%{-b w}%?%+Lw%?%?%= %{g}][%{c} %D %d %M %Y %{g}%c:%s %{g}]'
 defscrollback 80000
 
 # Enables use of shift-PgUp and shift-PgDn
