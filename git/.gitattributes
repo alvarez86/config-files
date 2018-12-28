@@ -1,0 +1,49 @@
+# Possíveis arquivos de fontes, atualize de acordo
+# *.c text
+# *.h text
+# *.cpp text
+# *.hpp text
+# *.py text
+# *.pl text
+# *.php text
+# *.hs text
+# *.java text
+# *.tex text
+# *.rs
+# *.sql
+# *.vim
+
+# Alguns arquivos de sistemas de build, ajuste de acordo
+# *akefile* text
+# *.mk text # Alguns projetos usam essa extensao
+# CMakeLists.txt
+# meson.build
+# configure.ac text
+# *.toml
+
+# Arquivos de sistemas de documentação
+# Doxyfile
+
+# Alguns arquivos de texto gerais
+*.txt text
+*.md text
+*.html text
+*.yaml text
+*.xml text
+*.json text
+*.css text
+*.js text
+*.csv text
+
+# Arquivos específicos do Windows
+*.bat text eol=crlf
+*.sln text eol=crlf
+*.vcproj text eol=crlf
+
+# Arquivos específicos do Linux
+*.sh text eol=lf
+
+# Arquivos de imagens
+*.png binary
+*.jpeg binary
+*.jpg binary
