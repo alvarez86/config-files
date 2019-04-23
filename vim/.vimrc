@@ -24,3 +24,6 @@ set tabstop=2
 set shiftwidth=2
 set nospell
 set path+=,**,
+
+nnoremap <F8> :TagbarToggle<CR>
+nnoremap <F9> :NERDTreeToggle<CR>
