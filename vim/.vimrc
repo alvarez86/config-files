@@ -27,3 +27,6 @@ set path+=,**,
 
 nnoremap <F8> :TagbarToggle<CR>
 nnoremap <F9> :NERDTreeToggle<CR>
+nnoremap ,w :w<CR>
+nnoremap ,x :x<CR>
+nnoremap ,q :q<CR>
