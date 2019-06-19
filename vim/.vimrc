@@ -30,3 +30,8 @@ nnoremap <F9> :NERDTreeToggle<CR>
 nnoremap ,w :w<CR>
 nnoremap ,x :x<CR>
 nnoremap ,q :q<CR>
+
+nnoremap ç <Right>
+nnoremap l <Up>
+nnoremap k <Down>
+nnoremap j <Left>
