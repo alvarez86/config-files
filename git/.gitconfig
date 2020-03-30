@@ -12,3 +12,12 @@
 	submoduleSummary = true
 [diff]
 	submodule = log
+[alias]
+	fo = fetch origin
+	mfu = merge --ff-only @{u}
+	co = checkout
+	ci = commit
+	stu = status -uno
+	st = status
+	adu = add -u
+	unstage = reset HEAD --
