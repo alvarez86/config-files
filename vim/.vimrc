@@ -9,6 +9,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'majutsushi/tagbar'
 Plug 'easymotion/vim-easymotion'
 Plug 'Valloric/YouCompleteMe', {'for' : ['c', 'cpp']}
+Plug 'jlanzarotta/bufexplorer'
 call plug#end()
 
 set wildmenu
@@ -29,6 +30,7 @@ let c_space_errors=1
 
 nnoremap <F8> :TagbarToggle<CR>
 nnoremap <F9> :NERDTreeToggle<CR>
+nnoremap <F12> :BufExplorer<CR>
 nnoremap ,w :w<CR>
 nnoremap ,x :x<CR>
 nnoremap ,q :q<CR>
