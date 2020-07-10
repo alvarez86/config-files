@@ -25,6 +25,8 @@ set shiftwidth=2
 set nospell
 set path+=,**,
 
+let c_space_errors=1
+
 nnoremap <F8> :TagbarToggle<CR>
 nnoremap <F9> :NERDTreeToggle<CR>
 nnoremap ,w :w<CR>
