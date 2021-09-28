@@ -21,3 +21,5 @@
 	st = status
 	adu = add -u
 	unstage = reset HEAD --
+[tar "tar.xz"]
+	command = xz -c
